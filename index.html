@@ -12,6 +12,15 @@
       rel="stylesheet"
     />
     <title>യുവമന്ത്ര 2025</title>
+    <script>
+      const iframe = document.querySelector("iframe");
+      iframe.addEventListener("mouseenter", () => {
+        iframe.style.pointerEvents = "auto";
+      });
+      iframe.addEventListener("mouseleave", () => {
+        iframe.style.pointerEvents = "none";
+      });
+    </script>
   </head>
   <body>
     <div
@@ -24,7 +33,6 @@
         box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
         margin-top: 1.6em;
         margin-bottom: 0.9em;
-        overflow: hidden;
         border-radius: 8px;
         will-change: transform;
       "
@@ -40,6 +48,7 @@
           border: none;
           padding: 0;
           margin: 0;
+          pointer-events: none;
         "
         src="https://www.canva.com/design/DAGhrZh1XXQ/aztvrCUBuSWLpAYw_NPkLA/view?embed"
         allowfullscreen="allowfullscreen"
@@ -47,6 +56,7 @@
       >
       </iframe>
     </div>
+
     <a
       href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGhrZh1XXQ&#x2F;aztvrCUBuSWLpAYw_NPkLA&#x2F;view?utm_content=DAGhrZh1XXQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
       target="_blank"
@@ -80,6 +90,7 @@
           border: none;
           padding: 0;
           margin: 0;
+          pointer-events: none;
         "
         src="https://www.canva.com/design/DAGhrZh1XXQ/aztvrCUBuSWLpAYw_NPkLA/view?embed"
         allowfullscreen="allowfullscreen"
